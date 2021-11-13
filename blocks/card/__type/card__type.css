@@ -1,0 +1,8 @@
+.card__type {
+  background: linear-gradient(to left, var(--red), var(--orange));
+  color: #fff;
+  padding: 5px 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}

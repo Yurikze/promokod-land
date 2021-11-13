@@ -6,3 +6,9 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__content/header__content.css');
 @import url('../blocks/coupons/coupons.css');
+@import url('../blocks/coupons/__list/coupons__list.css');
+@import url('../blocks/coupons/__li/coupons__li.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__meta/card__meta.css');
+@import url('../blocks/card/__type/card__type.css');
+@import url('../blocks/card/__feat/card__feat.css');

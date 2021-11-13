@@ -1,5 +1,6 @@
 .page {
   display: flex;
+  min-width: 320px;
   align-items: center;
   flex-direction: column;
   font-family: 'Avenir';
