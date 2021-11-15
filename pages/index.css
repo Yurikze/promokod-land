@@ -12,3 +12,7 @@
 @import url('../blocks/card/__meta/card__meta.css');
 @import url('../blocks/card/__type/card__type.css');
 @import url('../blocks/card/__feat/card__feat.css');
+@import url('../blocks/card/__content/card__content.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/card/__desc/card__desc.css');
+@import url('../blocks/card/__btn/card__btn.css');

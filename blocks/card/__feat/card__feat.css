@@ -2,9 +2,9 @@
   color: var(--pink);
   font-weight: 900;
   font-size: 25px;
-  line-height: 1.33;
+  line-height: 1.35;
   text-align: center;
-  margin: 13px 0;
-  padding: 10px;
+  margin: 10px 0;
+  padding: 15px;
   box-sizing: border-box;
 }

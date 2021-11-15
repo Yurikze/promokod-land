@@ -1,4 +1,15 @@
 .card__meta {
   display: flex;
   flex-direction: column;
+  border-bottom: 2px dashed #ddd;
+  position: relative;
+}
+
+.card__meta::before {
+  position: absolute;
+  content: url('../../../images/scissors.svg');
+  width: 28px;
+  height: 28px;
+  transform: translate(90px, 52%) rotate(90deg);
+  bottom: 0;
 }
