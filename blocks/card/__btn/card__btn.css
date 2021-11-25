@@ -9,13 +9,18 @@
   border: none;
   box-sizing: border-box;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, .2);
-  z-index: 1;
+  z-index: 3;
   min-width: 250px;
   color: #fff;
   font-weight: bold;
   transition: box-shadow .1s;
   cursor: pointer;
   outline: none;
+  font-size: 16px;
+}
+
+.card__btn:hover {
+  box-shadow: 0 0 13px 4px rgba(0, 0, 0, .2);
 }
 
 .card__btn::before {
@@ -27,13 +32,30 @@
   width: 85%;
   height: 100%;
   background-color: var(--green);
-  transition: width .1s;
-}
-
-.card__btn:hover {
-  box-shadow: 0 0 13px 4px rgba(0, 0, 0, .2);
+  transition: width .1s, background-color .1s;
 }
 
 .card__btn:hover::before {
-  width: 84%;
+  width: 83%;
+  background-color: #429f3f;
+}
+
+.card__btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: block;
+  left: 85%;
+  width: 0;
+  border-style: solid;
+  border-width: 36px 0 0 13px;
+  border-color: transparent transparent transparent #7fde7c;
+  transform: rotate(19deg);
+  transition: left .1s;
+  transform-origin: top left;
+}
+
+.card__btn:hover::after {
+  left: 83%;
 }

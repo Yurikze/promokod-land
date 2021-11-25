@@ -5,4 +5,19 @@
   list-style: none;
   padding: 0; 
   margin: 30px 0;
+  gap: 30px;
+}
+
+@media (min-width: 650px) {
+  .coupons__list {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+@media (min-width: 950px) {
+  .coupons__list {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
 }
